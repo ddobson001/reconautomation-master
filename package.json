@@ -1,0 +1,51 @@
+{
+  "name": "recon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.501.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "core-util-is": "^1.0.2",
+    "cors": "^2.8.5",
+    "csv": "^5.1.1",
+    "csv-parse": "^4.4.3",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "eol": "^0.9.1",
+    "exceljs": "^1.15.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "fast-csv": "^3.0.1",
+    "googleapis": "^39.2.0",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "require": "^2.4.20",
+    "s3-streams": "^0.4.0",
+    "sequelize": "^5.8.12",
+    "stream": "0.0.2",
+    "streaming-s3": "^0.4.4",
+    "tempfile": "^3.0.0",
+    "url-parse": "^1.4.7",
+    "uuid": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddobson001/reconautomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddobson001/reconautomation/issues"
+  },
+  "homepage": "https://github.com/ddobson001/reconautomation#readme"
+}
